@@ -50,7 +50,7 @@ export default function Home() {
                 <div className="flex flex-row gap-4">
                   <a target="_blank" href="https://www.codewars.com/users/shellycs50" className="min-w-full min-h-full">
                     <img src="https://www.codewars.com/users/shellycs50/badges/large" className="w-full h-full"
-                      min-width="250px" min-height="400px" alt="Codewars Rank Badge" />
+                      min-width="250px" min-height="400px" alt="Codewars Rank Badge" loading='lazy'/>
                   </a>
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default function Home() {
                 <div className="flex flex-row gap-4">
                   <a className="border-gray-800" target="_blank"
                     href="https://github.com/shellycs50/challenges/tree/main/codewars">
-                    <img width="90px" src="assets/GitHub_Logo_White.png" alt="Github Logo" />
+                    <img width="90px" src="assets/GitHub_Logo_White.png" alt="Github Logo" loading='lazy' />
                   </a>
                 </div>
               </div>
@@ -135,11 +135,7 @@ export default function Home() {
             <div className="h-6"></div>
             <div className="flex flex-row justify-evenly">
               <i className="devicon-react-original-wordmark text-6xl text-edgyyellow"></i>
-              {/* <img src="assets/react-original-wordmark.svg" alt="React Logo" /> */}
               <span className="text-6xl text-edgyyellow"><img src="assets/react-original-wordmark.svg" alt="React Logo" /></span>
-
-              {/* <ReactLogo className="text-6xl text-edgyyellow" /> */}
-              {/* <LaravelLogo className="text-6xl text-edgyyellow" /> */}
               <i className="devicon-laravel-original text-6xl text-edgyyellow"></i>
             </div>
 

@@ -11,8 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-      <script src="https://kit.fontawesome.com/e647eecc8d.js" crossorigin="anonymous"></script> */}
+       <link defer rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+      <script defer src="https://kit.fontawesome.com/e647eecc8d.js" crossorigin="anonymous"></script> 
 
       <body className={inter.className}>{children}</body>
     </html>
