@@ -3,12 +3,25 @@ import { useEffect, useState, useRef } from "react";
 
 
 function ScrollAnimation() {
+  const [imageLoaded, setImageLoaded] = useState(false);
   const [hasFaded, setHasFaded] = useState(false);
   const [hasRevealed, setHasRevealed] = useState(false);
   const timeoutRef = useRef(null);
+  
+
+  //handle loading
+  useEffect(() => {
+    setInterval(() => {
+      if (document.querySelector('#hero-bg')) {
+        setImageLoaded(true);
+      }
+    }, 300)
+  }, []);
+
 
 
   const handleScroll = () => {
+    if (!imageLoaded) return;
     
     var element = document.querySelector('#hero-bg');
     var position = window.scrollY; 
@@ -44,7 +57,7 @@ function ScrollAnimation() {
         window.addEventListener('scroll', handleScroll);
         
         return () => { window.removeEventListener('scroll', handleScroll) };
-      }, [hasFaded, hasRevealed]);
+      }, [hasFaded, hasRevealed, imageLoaded]);
       return null;
 }
 export default ScrollAnimation;
