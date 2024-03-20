@@ -6,7 +6,7 @@ export default function Home() {
     <div className="bg-gradient-to-br from-black to-black scroll-smooth">
       
         <img className="fixed object-cover h-1/3 sm:h-1/3 lg:h-1/2 w-full hero-default z-1 bg-gradient-to-b from-transparent to-black"
-          id="hero-bg" src="/assets/concrete-dark.jpg" />
+          id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark.jpg" />
      
       <div className="text-white container mx-auto p-1 md:rounded-lg md:p-10 lg:p-12 bg-none z-20">
 
@@ -22,7 +22,7 @@ export default function Home() {
         <div className="sm:h-16 lg:h-40"></div>
         <div className="h-16 md:h-0"></div>
         <p className="max-w-2xl font-inter text-xl sm:text-2xl tracking-wide w-full relative">
-          Hello, I'm Rob. <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow via-white to-edgyyellow">Full-Stack Developer</span> based in <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow via-white to-edgyyellow">Gloucestershire, UK.</span> Graduating from the <a target="_blank" className="underline" href="https://io-academy.uk/io-academy-ranked-in-the-top-10-best-coding-bootcamps-in-the-world/">6th ranked</a> software <span className="filter blur-sm hover:blur-0 cursor-none">bootcamp</span> in the world and Harvard's <a target="_blank" href="https://pll.harvard.edu/course/cs50-introduction-computer-science" className="underline">CS50x</a>, I'm now looking for the right place to grow.
+          Hello, I&apos;m Rob. <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow via-white to-edgyyellow">Full-Stack Developer</span> based in <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow via-white to-edgyyellow">Gloucestershire, UK.</span> Graduating from the <a target="_blank" className="underline" href="https://io-academy.uk/io-academy-ranked-in-the-top-10-best-coding-bootcamps-in-the-world/">6th ranked</a> software <span className="filter blur-sm hover:blur-0 cursor-none">bootcamp</span> in the world and Harvard&apos;s <a target="_blank" href="https://pll.harvard.edu/course/cs50-introduction-computer-science" className="underline">CS50x</a>, I&apos;m now looking for the right place to grow.
         </p>
         <div className="h-16 sm:h-32 md:h-40"></div>
         <div className="grid gap-8 md:grid-cols-2 text-xl">
@@ -235,7 +235,7 @@ export default function Home() {
             <div className="flex flex-row justify-evenly">
               <i className="devicon-c-plain text-6xl text-edgyyellow"></i>
             </div>
-    <div className='hidden'></div>
+    <div className="hidden"></div>
 
           </div>
         </div >
