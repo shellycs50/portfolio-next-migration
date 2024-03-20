@@ -6,7 +6,7 @@ export default function Home() {
     <div className="bg-gradient-to-br from-black to-black scroll-smooth">
       
         <img className="fixed object-cover h-1/3 sm:h-1/3 lg:h-1/2 w-full hero-default z-1 bg-gradient-to-b from-transparent to-black"
-          id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark.jpg" />
+          id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark-midq.jpg" />
      
       <div className="text-white container mx-auto p-1 md:rounded-lg md:p-10 lg:p-12 bg-none z-20">
 
