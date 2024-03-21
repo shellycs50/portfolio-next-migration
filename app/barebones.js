@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-black to-black scroll-smooth">
+    <div className="bg-gradient-to-br from-black to-black scroll-smooth overflow-x-hidden w-full">
 
       <Image className="fixed object-cover h-1/3 sm:h-1/3 lg:h-1/2 w-full hero-default -z-1 bg-gradient-to-b from-transparent to-black hidden"
         id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark-midq.jpg" loading='lazy' width={1920} height={1948}/>
