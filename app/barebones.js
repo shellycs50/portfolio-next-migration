@@ -1,12 +1,10 @@
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-black to-black scroll-smooth">
 
-      <img className="fixed object-cover h-1/3 sm:h-1/3 lg:h-1/2 w-full hero-default z-1 bg-gradient-to-b from-transparent to-black"
-        id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark-midq.jpg" loading='lazy' />
+      <Image className="fixed object-cover h-1/3 sm:h-1/3 lg:h-1/2 w-full hero-default -z-1 bg-gradient-to-b from-transparent to-black hidden"
+        id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark-midq.jpg" loading='lazy' width={1920} height={1948}/>
 
       <div className="text-white container mx-auto p-1 md:rounded-lg md:p-10 lg:p-12 bg-none z-20">
 
@@ -87,7 +85,7 @@ export default function Home() {
         <div className="h-10"></div>
         <div className="grid gap-4 lg:grid-cols-3 text-black">
           <div className="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-br from-white via-gray-500 to-gray lg:h-full">
-            <p className="flex items-center justify-center text-4xl font-semibold text-black">
+            <p className="flex items-center justify-center text-4xl font-semibold text-black text-center">
               Full Stack FAQ
             </p>
             <div className="h-6"></div>
@@ -104,17 +102,17 @@ export default function Home() {
             {/* HERE HERE */}
             <div className="flex flex-row justify-between gap-4">
               <div className="flex flex-col">
-                <a className="flex flex-row text-white text-xl hover:animate-pulse" href="https://github.com/shellycs50/faq-fe"
+                <a className="flex flex-row text-white text-xl hover:text-edgyyellow" href="https://github.com/shellycs50/faq-fe"
                   target="_blank">Frontend Code
-                  <svg className="relative top-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                  <svg className="relative top-1 xl:right-10 2xl:right-0" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                     viewBox="0 0 24 24">
                     <path fill="currentColor"
                       d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z" />
                   </svg>
                 </a>
                 <div className="h-3"></div>
-                <a className="flex flex-row text-white text-xl hover:animate-pulse cursor-pointer" href="https://github.com/shellycs50/faq-api"
-                  target="_blank">Backend Code<svg className="relative top-1" xmlns="http://www.w3.org/2000/svg"
+                <a className="flex flex-row text-white text-xl hover:text-edgyyellow cursor-pointer" href="https://github.com/shellycs50/faq-api"
+                  target="_blank">Backend Code<svg className="relative top-1 xl:right-10 2xl:right-0" xmlns="http://www.w3.org/2000/svg"
                     width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor"
                       d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z" />
@@ -122,7 +120,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="flex flex-col">
-                <a className="flex flex-row text-white text-2xl justify-center rounded-full bg-black bg-opacity-50 p-4 hover:animate-pulse"
+                <a className="flex flex-row text-white text-2xl justify-center rounded-full bg-black bg-opacity-50 p-4 hover:bg-edgyyellow hover:text-black"
                   href="https://faq-demo.robsheldrick.dev.io-academy.uk" target="_blank">Demo<svg
                     className="relative top-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor"
@@ -142,7 +140,7 @@ export default function Home() {
 
           </div >
           <div className="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-b from-white via-gray-500 to-gray">
-            <p className="flex items-center justify-center text-4xl font-semibold text-black">
+            <p className="flex items-center justify-center text-4xl font-semibold text-black text-center">
               Bookswap
             </p>
             <div className="h-6"></div>
@@ -153,22 +151,22 @@ export default function Home() {
             <div className="h-6"></div>
             <p className="text-lg">Built in a scrum team of students at iO Academy, via Github.</p>
 
-            <div className="h-1 2xl:mt-32"></div>
+            <div className="h-1 md:mt-60 xl:mt-48 2xl:mt-32 mt-56"></div>
             {/* HERE HERE */}
 
             <div className="flex flex-row justify-between items-end justify-self-end gap-4">
               <div className="flex flex-col">
-                <a className="flex flex-row text-white text-xl hover:animate-pulse"
-                  href="https://github.com/iO-Academy/23-sept-sarcasticfringeheads-bookswap-fe" target="_blank">Frontend Code<svg className="relative top-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                <a className="flex flex-row text-white text-xl hover:text-edgyyellow"
+                  href="https://github.com/iO-Academy/23-sept-sarcasticfringeheads-bookswap-fe" target="_blank">Frontend Code<svg className="relative top-1 xl:right-10 2xl:right-0" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                     viewBox="0 0 24 24">
                     <path fill="currentColor"
                       d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z" />
                   </svg>
                 </a>
                 <div className="h-3"></div>
-                <a className="flex flex-row text-white text-xl hover:animate-pulse"
+                <a className="flex flex-row text-white text-xl hover:text-edgyyellow"
                   href="https://github.com/iO-Academy/23-sept-sarcasticfringeheads-bookswap-api" target="_blank"
-                >Backend Code<svg className="relative top-1" xmlns="http://www.w3.org/2000/svg" width="1em"
+                >Backend Code<svg className="xl:relative top-1 right-0 xl:right-10 2xl:right-0" xmlns="http://www.w3.org/2000/svg" width="1em"
                   height="1em" viewBox="0 0 24 24">
                     <path fill="currentColor"
                       d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z" />
@@ -177,7 +175,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col">
 
-                <a className="text-white flex flex-row text-2xl justify-center rounded-full bg-black bg-opacity-50 p-4 hover:animate-pulse"
+                <a className="text-white flex flex-row text-2xl justify-center rounded-full bg-black bg-opacity-50 p-4 hover:bg-edgyyellow hover:text-black"
                   href="https://bookswap.robsheldrick.dev.io-academy.uk/" target="_blank">Demo
                   <svg className="relative top-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                     viewBox="0 0 24 24">
@@ -195,8 +193,8 @@ export default function Home() {
             </div>
           </div >
           <div className="flex-col py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-bl from-white via-gray-500 to-gray h-full">
-            <p className="flex items-center justify-center text-4xl font-semibold text-black">
-              Tideman Election Sim
+            <p className="flex items-center justify-center text-4xl font-semibold text-black text-center">
+              Tideman Election Simulator
             </p>
             <div className="h-6"></div>
             <p className="text-2xl">Computer Science Assignment implementing DFS.</p>
@@ -205,7 +203,7 @@ export default function Home() {
             <div className="h-1 2xl:mt-2">{/* HERE HERE */}</div>
             <div className='flex flex-col justify-end'>
               <div className="flex flex-row justify-end gap-4">
-                <a className="text-white flex flex-row text-2xl text-center justify-center rounded-full bg-black bg-opacity-50 p-4 hover:animate-pulse" href="https://github.com/shellycs50/tideman" target="_blank">
+                <a className="text-white flex flex-row text-2xl text-center justify-center rounded-full bg-black bg-opacity-50 p-4 hover:bg-edgyyellow hover:text-black" href="https://github.com/shellycs50/tideman" target="_blank">
                   Code
                   <span className="relative top-1 text-xl">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">

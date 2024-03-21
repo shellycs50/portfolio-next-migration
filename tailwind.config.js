@@ -33,6 +33,7 @@ module.exports = {
       screens: {
         // '36vh': { 'raw': '(min-height: 36vh)' },
         '2xl' : '1540px',
+        'xl' : '1280px',
 
       }
     },

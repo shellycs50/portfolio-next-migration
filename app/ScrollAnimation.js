@@ -33,7 +33,7 @@ function ScrollAnimation() {
       clearTimeout(timeoutRef.current);
       timeoutRef.current = setTimeout(() => {
         element.classList.add('hidden')
-      }, 1500);
+      }, 500);
       
       element.classList.remove('hero-op')
       setHasFaded(true);
