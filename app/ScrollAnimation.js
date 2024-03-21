@@ -1,6 +1,5 @@
 'use client'
 import { useEffect, useState, useRef } from "react";
-import 'devicon/devicon.min.css';
 
 function ScrollAnimation() {
   const [imageLoaded, setImageLoaded] = useState(false);
