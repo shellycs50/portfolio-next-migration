@@ -237,7 +237,7 @@ export default function Home() {
               <a href="https://github.com/shellycs50" target="_blank">
                 <i className="fa-brands fa-github  p-2 rounded-lg text-4xl  bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i></a>
               <a href="mailto:rsgsheldrick@gmail.com">
-                <i class="fa-regular fa-envelope  p-2 rounded-lg text-4xl bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i>
+                <i className="fa-regular fa-envelope  p-2 rounded-lg text-4xl bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i>
               </a>
               <a href="https://github.com/shellycs50/honourable-mentions" target="_blank" className="justify-self-end cursor-pointer">
                 <p className="max-w-2xl font-inter text-xl sm:text-2xl tracking-wide w-full flex flex-row justify-center bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black p-2 rounded-lg font-semibold">

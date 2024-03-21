@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import 'devicon/devicon.min.css';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,8 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" loading="lazy"/>
-      <script defer src="https://kit.fontawesome.com/e647eecc8d.js" crossorigin="anonymous"></script> 
+      <Script src="/assets/fontawesome.js" strategy="afterInteractive"/>
 
       <body className={inter.className}>{children}</body>
     </html>
