@@ -85,9 +85,9 @@ export default function Home() {
         <div className="h-10"></div>
         <div className="grid gap-4 lg:grid-cols-3 text-black">
           <div className="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-br from-white via-gray-500 to-gray lg:h-full">
-            <p className="flex items-center justify-center text-4xl font-semibold text-black text-center">
+            <h3 className="flex items-center justify-center text-4xl font-semibold text-black text-center">
               Full Stack FAQ
-            </p>
+            </h3>
             <div className="h-6"></div>
             <p className="text-2xl">A gated forum to help trainers not repeat themselves.</p>
             <div className="h-6"></div>
@@ -140,9 +140,9 @@ export default function Home() {
 
           </div >
           <div className="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-b from-white via-gray-500 to-gray">
-            <p className="flex items-center justify-center text-4xl font-semibold text-black text-center">
+            <h3 className="flex items-center justify-center text-4xl font-semibold text-black text-center">
               Bookswap
-            </p>
+            </h3>
             <div className="h-6"></div>
             <p className="text-2xl">
               A virtual bookshelf & borrowing platform.
@@ -193,9 +193,9 @@ export default function Home() {
             </div>
           </div >
           <div className="flex-col py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-bl from-white via-gray-500 to-gray h-full">
-            <p className="flex items-center justify-center text-4xl font-semibold text-black text-center">
+            <h3 className="flex items-center justify-center text-4xl font-semibold text-black text-center">
               Tideman Election Simulator
-            </p>
+            </h3>
             <div className="h-6"></div>
             <p className="text-2xl">Computer Science Assignment implementing DFS.</p>
             <div className="h-6"></div>
@@ -224,9 +224,9 @@ export default function Home() {
         <div className="h-40"></div>
         <div className="grid gap-8 md:grid">
           <div className="flex flex-col justify-center md:col-span-2">
-            <p className="self-start inline font-sans text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-edgyyellow to-gray-200">
+            <h2 className="self-start inline font-sans text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-edgyyellow to-gray-200">
               Get in touch
-            </p>
+            </h2>
             <h2 className="text-4xl font-bold">Socials</h2>
             <div className="h-6"></div>
             <div className="flex flex-row justify-start items-center gap-10 w-full">
