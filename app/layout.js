@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import 'devicon/devicon.min.css';
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
