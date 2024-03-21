@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-black to-black scroll-smooth">
-      
-        <img className="fixed object-cover h-1/3 sm:h-1/3 lg:h-1/2 w-full hero-default z-1 bg-gradient-to-b from-transparent to-black"
-          id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark-midq.jpg" loading='lazy' />
-     
+
+      <img className="fixed object-cover h-1/3 sm:h-1/3 lg:h-1/2 w-full hero-default z-1 bg-gradient-to-b from-transparent to-black"
+        id="hero-bg" alt='Grey Stone Background Image' src="/assets/concrete-dark-midq.jpg" loading='lazy' />
+
       <div className="text-white container mx-auto p-1 md:rounded-lg md:p-10 lg:p-12 bg-none z-20">
 
         <div className="h-24 sm:h-24"></div>
@@ -50,7 +50,7 @@ export default function Home() {
                 <div className="flex flex-row gap-4">
                   <a target="_blank" href="https://www.codewars.com/users/shellycs50" className="min-w-full min-h-full">
                     <img src="https://www.codewars.com/users/shellycs50/badges/large" className="w-full h-full"
-                      min-width="250px" min-height="400px" alt="Codewars Rank Badge" loading='lazy'/>
+                      min-width="250px" min-height="400px" alt="Codewars Rank Badge" loading='lazy' />
                   </a>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function Home() {
         </h1>
         <div className="h-10"></div>
         <div className="grid gap-4 lg:grid-cols-3 text-black">
-          <div className="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-br from-white via-gray-500 to-gray">
+          <div className="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-br from-white via-gray-500 to-gray lg:h-full">
             <p className="flex items-center justify-center text-4xl font-semibold text-black">
               Full Stack FAQ
             </p>
@@ -100,8 +100,8 @@ export default function Home() {
                 question.</li>
               <li><span className="font-semibold">Trainer:</span> I want to quickly answer questions.</li>
             </ul>
-            <div className="h-6"></div>
-            <div className="h-6"></div>
+            <div className="h-1 2xl:mt-14 lg:mt-10"></div>
+            {/* HERE HERE */}
             <div className="flex flex-row justify-between gap-4">
               <div className="flex flex-col">
                 <a className="flex flex-row text-white text-xl hover:animate-pulse" href="https://github.com/shellycs50/faq-fe"
@@ -153,18 +153,13 @@ export default function Home() {
             <div className="h-6"></div>
             <p className="text-lg">Built in a scrum team of students at iO Academy, via Github.</p>
 
-            <div className="h-6"></div>
-            <div className="h-6"></div>
-            <div className="h-7"></div>
-            <div className="h-6"></div>
-            <div className="h-6"></div>
+            <div className="h-1 2xl:mt-32"></div>
+            {/* HERE HERE */}
 
-            <div className="flex flex-row justify-between items-end justify-self-end gap-4 grow">
+            <div className="flex flex-row justify-between items-end justify-self-end gap-4">
               <div className="flex flex-col">
                 <a className="flex flex-row text-white text-xl hover:animate-pulse"
-                  href="https://github.com/iO-Academy/23-sept-sarcasticfringeheads-bookswap-fe" target="_blank">Frontend
-                  Code
-                  <svg className="relative top-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                  href="https://github.com/iO-Academy/23-sept-sarcasticfringeheads-bookswap-fe" target="_blank">Frontend Code<svg className="relative top-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                     viewBox="0 0 24 24">
                     <path fill="currentColor"
                       d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z" />
@@ -199,7 +194,7 @@ export default function Home() {
               <i className="devicon-laravel-original text-6xl text-edgyyellow"></i>
             </div>
           </div >
-          <div className="flex-col py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-bl from-white via-gray-500 to-gray">
+          <div className="flex-col py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-bl from-white via-gray-500 to-gray h-full">
             <p className="flex items-center justify-center text-4xl font-semibold text-black">
               Tideman Election Sim
             </p>
@@ -207,34 +202,27 @@ export default function Home() {
             <p className="text-2xl">Computer Science Assignment implementing DFS.</p>
             <div className="h-6"></div>
             <p className="text-lg">We compare every pair of candidates. The candidate who wins the most matchups is the winner of the election. The challenge was dealing with complexities like handling ties and cycles.</p>
-            <div className="flex flex-col"></div>
-            <div className="h-3"></div>
-            <div className="h-3"></div>
-            <div className="h-4"></div>
-            <div className="flex flex-row justify-end gap-4">
-              <a className="text-white flex flex-row text-2xl text-center justify-center rounded-full bg-black bg-opacity-50 p-4 hover:animate-pulse" href="https://github.com/shellycs50/tideman" target="_blank">
-                Code
-                <span className="relative top-1 text-xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z" />
-                  </svg>
-                </span>
-              </a>
+            <div className="h-1 2xl:mt-2">{/* HERE HERE */}</div>
+            <div className='flex flex-col justify-end'>
+              <div className="flex flex-row justify-end gap-4">
+                <a className="text-white flex flex-row text-2xl text-center justify-center rounded-full bg-black bg-opacity-50 p-4 hover:animate-pulse" href="https://github.com/shellycs50/tideman" target="_blank">
+                  Code
+                  <span className="relative top-1 text-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                      <path fill="currentColor" d="M18 7.05a1 1 0 0 0-1-1L9 6a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L16 9.42V15a1 1 0 0 0 1 1a1 1 0 0 0 1-1Z" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <div className="h-6"></div>
+              <div className="h-6"></div>
+              <div className="flex flex-row justify-evenly">
+                <i className="devicon-c-plain text-6xl text-edgyyellow"></i>
+              </div>
             </div>
-
-
-
-            <div className="h-6"></div>
-            <div className="h-6"></div>
-            <div className="h-1"></div>
-
-            <div className="flex flex-row justify-evenly">
-              <i className="devicon-c-plain text-6xl text-edgyyellow"></i>
-            </div>
-    <div className="hidden"></div>
-
           </div>
-        </div >
+        </div>
+
         <div className="h-40"></div>
         <div className="grid gap-8 md:grid">
           <div className="flex flex-col justify-center md:col-span-2">
@@ -244,11 +232,12 @@ export default function Home() {
             <h2 className="text-4xl font-bold">Socials</h2>
             <div className="h-6"></div>
             <div className="flex flex-row justify-start items-center gap-10 w-full">
-              <a href="https://www.linkedin.com/in/robertsheldrick" target="_blank"><i
-                className="fa-brands fa-linkedin p-2 rounded-lg text-4xl bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i></a>
-              <a href="https://github.com/shellycs50" target="_blank"><i
-                className="fa-brands fa-github  p-2 rounded-lg text-4xl  bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i></a>
-              <a href="mailto:rsgsheldrick@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="fa-regular fa-envelope  p-2 rounded-lg text-4xl bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black" />
+              <a href="https://www.linkedin.com/in/robertsheldrick" target="_blank">
+                <i className="fa-brands fa-linkedin p-2 rounded-lg text-4xl bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i></a>
+              <a href="https://github.com/shellycs50" target="_blank">
+                <i className="fa-brands fa-github  p-2 rounded-lg text-4xl  bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i></a>
+              <a href="mailto:rsgsheldrick@gmail.com">
+                <i class="fa-regular fa-envelope  p-2 rounded-lg text-4xl bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black"></i>
               </a>
               <a href="https://github.com/shellycs50/honourable-mentions" target="_blank" className="justify-self-end cursor-pointer">
                 <p className="max-w-2xl font-inter text-xl sm:text-2xl tracking-wide w-full flex flex-row justify-center bg-gradient-to-r from-black to-black hover:from-edgyyellow hover:to-edgyyellow hover:text-black p-2 rounded-lg font-semibold">
@@ -263,6 +252,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="hidden"></div>
     </div>
 
   );

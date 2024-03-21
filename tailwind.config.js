@@ -12,6 +12,9 @@ module.exports = {
         'black': '#111111',
     },
     extend: {
+      spacing: {
+        'projectheight': '644px'
+      },
       linearGradientColors: {
         'transparent-black': ['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 1)'],
       },
@@ -28,7 +31,9 @@ module.exports = {
         'inter': ['Inter', 'sans-serif'],
       },
       screens: {
-        '36vh': { 'raw': '(min-height: 36vh)' },
+        // '36vh': { 'raw': '(min-height: 36vh)' },
+        '2xl' : '1540px',
+
       }
     },
   },
