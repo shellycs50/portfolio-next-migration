@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="o-Paq6pN2gQHLuHmtCHQPhALcO2PP5bYnRl2AnsUJOU" />
-        <link rel="canonical" href="https://port-demo-phi.vercel.app" />
       </head>
       <Script src="/assets/fontawesome.js" strategy="afterInteractive" />
       <body className={inter.className}>{children}</body>
