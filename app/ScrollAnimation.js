@@ -15,6 +15,13 @@ function ScrollAnimation() {
         setImageLoaded(true);
       }
     }, 300)
+    
+  }, []);
+
+  useEffect(() => {
+    if (document.querySelector('#headshot')) {
+      document.querySelector('#headshot').classList.add('opacity-100')
+    }
   }, []);
 
 
@@ -52,7 +59,7 @@ function ScrollAnimation() {
   }
   
     useEffect(() => {
-        handleScroll(); // This is so that the effect runs on mount
+        handleScroll();
         window.addEventListener('scroll', handleScroll);
         
         return () => { window.removeEventListener('scroll', handleScroll) };
