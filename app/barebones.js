@@ -28,11 +28,12 @@ export default function Home() {
             </span>
             heldrick
           </h1>
+        
           
         </div>
         
         <Image
-        className="border-2 border-gray-700 grayscale hidden md:block opacity-0 rounded-lg md:rounded-r-full h-64 xl:h-80 2xl:h-96 2xl:absolute 2xl:right-72 transition-all duration-1000"
+        className="border-2 border-gray-700 grayscale hidden md:block opacity-0 rounded-lg rounded-r-full h-64 xl:h-80 2xl:h-96 2xl:absolute 2xl:right-72 transition-all duration-1000"
         id="headshot"
         alt="Robert's Headshot"
         src="/assets/rs_headshot.jpg"
@@ -87,15 +88,15 @@ export default function Home() {
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-400 text-2xl text-inter">
                 Front End:
               </span>{" "}
-              HTML, CSS, JS, React,{" "}
-              <span className="text-sm">(learning tailwind)</span>
+              React, Typescript, Javascript, HTML, CSS, TailwindCSS{" "}
+              <span className="text-sm"></span>
             </p>
             <p className="h-2"></p>
             <p>
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-400 text-2xl">
                 Back End:
               </span>{" "}
-              PHP, Laravel, <span className="text-sm">(learning go)</span>
+              Node.js, Express <span className="text-sm"></span>
             </p>
             <p className="h-2"></p>
             <p className="h-2"></p>
@@ -103,7 +104,7 @@ export default function Home() {
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-400 text-2xl ">
                 Familiar with:
               </span>{" "}
-              Postman, Docker, C, Python, SQL, Node
+              MongoDB, Prisma ORM, Git, Docker, C, Python, SQL, PHP, Laravel, Golang
             </p>
             <div className="h-8"></div>
             <div className="h-2 pt-8 border-t border-edgyyellow"></div>
