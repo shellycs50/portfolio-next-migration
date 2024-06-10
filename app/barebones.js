@@ -88,7 +88,7 @@ export default function Home() {
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-400 text-2xl text-inter">
                 Front End:
               </span>{" "}
-              React, Typescript, Javascript, HTML, CSS, TailwindCSS{" "}
+              React, Typescript, Javascript, TailwindCSS{" "}
               <span className="text-sm"></span>
             </p>
             <p className="h-2"></p>
@@ -104,7 +104,7 @@ export default function Home() {
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-400 text-2xl ">
                 Familiar with:
               </span>{" "}
-              MongoDB, Prisma ORM, Git, Docker, C, Python, SQL, PHP, Laravel, Golang
+              PostgreSQL, Prisma ORM, Git, Docker, C, Python, SQL, PHP, Laravel, Golang
             </p>
             <div className="h-8"></div>
             <div className="h-2 pt-8 border-t border-edgyyellow"></div>
