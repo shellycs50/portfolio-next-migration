@@ -15,46 +15,46 @@ export default function Home() {
       <div className="text-white container mx-auto p-1 md:rounded-lg md:p-10 lg:p-12 bg-none z-20">
         <div className="h-16 md: 2xl:h-24"></div>
         <div className="flex flex-row justify-center items-center">
-        <div className="flex flex-col overflow-visible w-full text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-monreg relative">
-          <h1>
-            Rober
-            <span className="text-transparent bg-clip-text bg-gradient-to-tr from-white via-white to-gray-300">
-              t
-            </span>
-          </h1>
-          <h1 className="min-[200px]:self-start lg:self-start font-thin text-white">
-            <span className="text-transparent bg-clip-text bg-gradient-to-tl from-white via-white to-gray-400">
-              S
-            </span>
-            heldrick
-          </h1>
-        
-          
-        </div>
-        
-        <Image
-        className="border-2 border-gray-700 grayscale hidden md:block opacity-0 rounded-lg rounded-r-full h-64 xl:h-80 2xl:h-96 2xl:absolute 2xl:right-72 transition-all duration-1000"
-        id="headshot"
-        alt="Robert's Headshot"
-        src="/assets/rs_headshot.jpg"
-        loading="lazy"
-        width={289}
-        height={384}
-      />
+          <div className="flex flex-col overflow-visible w-full text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-monreg relative">
+            <h1>
+              Rober
+              <span className="text-transparent bg-clip-text bg-gradient-to-tr from-white via-white to-gray-300">
+                t
+              </span>
+            </h1>
+            <h1 className="min-[200px]:self-start lg:self-start font-thin text-white">
+              <span className="text-transparent bg-clip-text bg-gradient-to-tl from-white via-white to-gray-400">
+                S
+              </span>
+              heldrick
+            </h1>
+
+
+          </div>
+
+          <Image
+            className="border-2 border-gray-700 grayscale hidden md:block opacity-0 rounded-lg rounded-r-full h-64 xl:h-80 2xl:h-96 2xl:absolute 2xl:right-72 transition-all duration-1000"
+            id="headshot"
+            alt="Robert's Headshot"
+            src="/assets/rs_headshot.jpg"
+            loading="lazy"
+            width={289}
+            height={384}
+          />
         </div>
         <div className="sm:h-16 lg:h-40"></div>
         <div className="h-16 md:h-0"></div>
-        
-        <div className="max-w-2xl font-inter text-xl sm:text-2xl tracking-wide w-full relative group">
-          Hello, I&apos;m Rob.{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow via-white to-edgyyellow">
-            Full-Stack Developer
+
+        <p className="max-w-2xl font-inter text-xl sm:text-2xl tracking-wide w-full relative group">
+          Hi, I&apos;m Rob. Full Stack Developer specialising in {" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow  to-edgyyellow">
+            React, Typescript and Node.js
           </span>{" "}
           based in{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow via-white to-edgyyellow">
+          <span className="text-transparent bg-clip-text bg-gradient-to-tr from-edgyyellow  to-edgyyellow">
             Gloucestershire, UK.
           </span>{" "}
-          Graduating from the{" "}
+          I graduated from the{" "}
           <a
             target="_blank"
             className="underline"
@@ -63,7 +63,7 @@ export default function Home() {
             6th ranked
           </a>{" "}
           software{" "}
-          <span className="filter blur-sm group-hover:blur-0 cursor-none transition-all duration-300">
+          <span className="">
             bootcamp
           </span>{" "}
           in the world and Harvard&apos;s{" "}
@@ -74,9 +74,14 @@ export default function Home() {
           >
             CS50x
           </a>
-          , I&apos;m now looking for the right place to grow.
-        </div>
-        
+          .
+          <span className="flex flex-col gap-4 items-center xs:block mt-4">
+            <a href="https://calendly.com/robertsheldrick" className="py-2 px-3 bg-edgyyellow bg-opacity-90 text-black rounded-full hover:bg-gray-200">Book a call</a>
+            {" "}or{" "}
+            <a href="https://calendly.com/robertsheldrick" className="py-2 px-3 bg-edgyyellow bg-opacity-90 text-black rounded-full hover:bg-gray-200">Email me</a>
+          </span>
+        </p>
+
         <div className="h-16 sm:h-32 md:h-40"></div>
         <div className="grid gap-8 md:grid-cols-2 text-xl">
           <div className="flex flex-col justify-center">
@@ -104,7 +109,7 @@ export default function Home() {
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-400 text-2xl ">
                 Familiar with:
               </span>{" "}
-              PostgreSQL, Prisma ORM, Git, Docker, C, Python, SQL, PHP, Laravel, Golang
+              Prisma ORM, Jest, Git, Docker, C, Python, SQL, PHP, Laravel, Golang
             </p>
             <div className="h-8"></div>
             <div className="h-2 pt-8 border-t border-edgyyellow"></div>
@@ -269,7 +274,12 @@ export default function Home() {
                   alt="React Logo"
                 />
               </span>
-              <i className="devicon-laravel-original text-6xl text-edgyyellow"></i>
+              <span>
+                <i className="devicon-laravel-original text-6xl text-edgyyellow relative">
+                  <div className="absolute inset-0 diagonal-line text-white"></div>
+                </i>
+                <p className=" max-w-16 text-white text-xs">Migration to Node in progress</p>
+              </span>
             </div>
           </div>
           <div className="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-b from-white via-gray-500 to-gray">
